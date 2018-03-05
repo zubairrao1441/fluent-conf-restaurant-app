@@ -11,8 +11,8 @@ export default Home = () => (
       style={styles.logo}
       source={require('../../assets/images/logo.png')}
     />
-    <Text style={styles.title}>Welcome to Burger Me</Text>
-    <Text style={styles.subTitle}>Serving the best burgers in the world.</Text>
+    <Text style={styles.title}>Welcome to Comamos</Text>
+    <Text style={styles.subTitle}>We refers worlds best restaurants.</Text>
     <Text style={styles.number} onPress={
       () => Linking.openURL('https://github.com/react-native-training')
         .then(() => console.log('calling'))
